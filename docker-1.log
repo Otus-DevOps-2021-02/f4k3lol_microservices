@@ -1,0 +1,10 @@
+docker images
+REPOSITORY                TAG       IMAGE ID       CREATED         SIZE
+f4k3lol/ubuntu-tmp-file   latest    1d2c6321ead2   2 minutes ago   72.7MB
+ubuntu                    latest    9873176a8ff5   2 weeks ago     72.7MB
+hello-world               latest    d1165f221234   3 months ago    13.3kB
+
+Отличия контейнеров от образов:
+1. У контейнера есть State, Image (из которого он был собран)
+2. У контейнера есть Mounts, Config (можно передавать переменные окружения)
+3. У контейнера есть настройки сети
